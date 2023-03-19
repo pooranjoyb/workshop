@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    /* background-image: linear-gradient(to right, rgb(247, 105, 105), rgb(216, 54, 244)); */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(../img/bg.jpeg);
+    background-size: cover;
+    color: white;
+}
+
+nav{
+    background: linear-gradient(to right, violet, rgb(117, 117, 237));
+    color: white;
+    /* border: 2px solid red; */
+}
+nav ul li {
+    padding: 30px;
+    /* border: 2px solid green */
+}
+
+#container{
+    display: flex;
+    color: white;
+    justify-content: center;
+    gap: 12rem;
+    /* border: 2px solid red; */
+}
+
+.text{
+    color: black;
+}
+
+article section {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+article section h1{
+    color: black;
+}
+
+.text.about-text{
+    padding: 0 4rem 0 4rem;
+    text-align: center
+
+}

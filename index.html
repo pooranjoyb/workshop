@@ -6,47 +6,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav style="display: flex; justify-content: space-between;" width="100%">
             <h1>Portfolio</h1>
-            <ul>
-                <li>
+            <ul style="display: flex; text-decoration: none; list-style: none; font-size: large;">
+                <li style="padding: 10px;">
                     About Me
                 </li>
-                <li>
+                <li style="padding: 10px;">
                     My works
                 </li>
-                <li>
+                <li style="padding: 10px;">
                     Contact
                 </li>
             </ul>
         </nav>
     </header>
     <main>
-        <div>
-            <img src="./assets/img/img1.jpeg" alt="" width="400px">
-        </div>
-        <div>
-            <h2>Alexa</h2>
-            <span>I am a Web Developer</span>
+        <div id="container">
+            <div >
+                <img src="./assets/img/img1.jpeg" alt="" width="400px">
+            </div>
+            <div>
+                <h2>Alexa</h2>
+                <span class="text">I am a Web Developer</span>
+            </div>
         </div>
         <article>
             <section>
                 <h1>About Me</h1>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque deleniti nisi repellat laudantium odio autem sapiente, alias praesentium quidem animi rerum perferendis non nesciunt, corrupti iusto quod commodi vel perspiciatis eveniet. Repellat totam doloribus facilis. Iusto laborum voluptatibus doloribus iure, hic, blanditiis in dicta esse, temporibus laudantium nam! Quibusdam, omnis.
-                    </p>
+                <p class="text about-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque deleniti nisi repellat laudantium
+                    odio autem sapiente, alias praesentium quidem animi rerum perferendis non nesciunt, corrupti iusto
+                    quod commodi vel perspiciatis eveniet. Repellat totam doloribus facilis. Iusto laborum voluptatibus
+                    doloribus iure, hic, blanditiis in dicta esse, temporibus laudantium nam! Quibusdam, omnis.
+                </p>
             </section>
             <section>
                 <h1>My Skills</h1>
                 <div>
-                    <img src="" alt="">
+                    <img src="./assets/img/c.png" alt="" width="50px">
+                    <img src="./assets/img/cpp.png" alt="" width="50px">
+                    <img src="./assets/img/python.png" alt="" width="50px">
+                    <img src="./assets/img/javascript.png" alt="" width="50px">
+                    <img src="./assets/img/java.png" alt="" width="50px">
+                    <img src="./assets/img/html.png" alt="" width="50px">
+                    <img src="./assets/img/cssIcon.png" alt="" width="50px">
+                    <img src="./assets/img/react-js.png" alt="" width="50px">
                 </div>
             </section>
+            <section>
+                <h1>Contact Me</h1>
+                <form>
+                    <label for="name">Enter Your Name :
+                    </label>
+                    <input type="text" />
+                    <label for="email">Enter Your Email :
+                    </label>
+                    <input type="text" />
+                    <label for="message">Enter Your message :
+                    </label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </form>
+            </section>
         </article>
+        <footer class="text">
+            Copyright @ 2022 Alexa. All rights Reserved
+        </footer>
     </main>
 </body>
 
